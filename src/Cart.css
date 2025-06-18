@@ -1,0 +1,191 @@
+.cart-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: stretch;
+    padding: 2.5rem 1rem;
+    background: linear-gradient(120deg, #fff1eb 0%, #ace0f9 100%);
+    min-height: 60vh;
+     font-family: "Caprasimo", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.cart-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(33,147,176,0.10);
+    width: 260px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.35s cubic-bezier(.4,2,.6,1), box-shadow 0.35s;
+    overflow: hidden;
+    position: relative;
+    animation: fadeInUp 0.7s cubic-bezier(.4,2,.6,1);
+}
+
+.cart-card:hover {
+    transform: translateY(-10px) scale(1.04) rotate(-1deg);
+    box-shadow: 0 8px 32px rgba(33,147,176,0.18);
+
+}
+
+
+.cart-card-img-wrap {
+    width: 100%;
+    height: 160px;
+    background: linear-gradient(90deg, #e0eafc 0%, #f8fafc 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.headingCate {
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #2193b0;
+    letter-spacing: 2px;
+    margin-bottom: 2.5rem;
+    margin-top: 0.5rem;
+    background: linear-gradient(90deg, #2193b0 0%, #6dd5ed 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    animation: fadeInDown 0.7s cubic-bezier(.4,2,.6,1) ;
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.headingCate::after {
+    content: "";
+    display: block;
+    margin: 0.5rem auto 0 auto;
+    width: 60px;
+    height: 4px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #ff9800 0%, #ffc107 100%);
+    opacity: 0.8;
+    animation: underlineGrow 0.8s 0.3s cubic-bezier(.4,2,.6,1) backwards;
+}
+
+@keyframes underlineGrow {
+    from { width: 0; opacity: 0; }
+    to { width: 60px; opacity: 0.8; }
+}
+.cart-card-img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s;
+    background-size: contain;
+    
+    
+}
+
+.cart-card:hover .cart-card-img {
+    transform: scale(1.08) rotate(2deg);
+}
+
+.cart-card-content {
+    padding: 1.2rem 1rem 1.5rem 1rem;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart-card-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #2193b0;
+    margin-bottom: 0.5rem;
+}
+
+.cart-card-desc {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1.2rem;
+}
+
+.cart-card-btn {
+    background: linear-gradient(90deg, #ff9800 0%, #ffc107 100%);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 0.6rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(255,152,0,0.10);
+}
+
+.cart-card-btn:hover {
+    background: linear-gradient(90deg, #ffc107 0%, #ff9800 100%);
+    transform: scale(1.08);
+}
+
+
+.AllItems{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 aut;
+    width: 150px;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+@media (max-width: 900px) {
+    .cart-grid {
+        gap: 1.2rem;
+        padding: 1.5rem 0.5rem;
+    }
+    .cart-card {
+        width: 90vw;
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 600px) {
+    .cart-grid {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0.2rem;
+    }
+    .cart-card {
+        width: 98vw;
+        max-width: 99vw;
+        min-width: 0;
+        padding: 1.2rem 0.5rem;
+    }
+    .cart-card-img-wrap {
+        height: 120px;
+    }
+    .cart-card-img {
+        width: 80px;
+        height: 80px;
+    }
+    .headingCate {
+        font-size: 1.3rem;
+        margin-bottom: 1.2rem;
+    }
+    .AllItems{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
