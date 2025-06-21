@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kirana/static/css/main.70960631.css",
-    "main.js": "/kirana/static/js/main.5c2a04b3.js",
+    "main.css": "/kirana/static/css/main.91224491.css",
+    "main.js": "/kirana/static/js/main.2a9d83b5.js",
     "static/js/453.72e47097.chunk.js": "/kirana/static/js/453.72e47097.chunk.js",
     "static/media/marie gold.webp": "/kirana/static/media/marie gold.073bae79a3d7c824bc7e.webp",
     "static/media/dabure.png": "/kirana/static/media/dabure.ec0e9b3ac6b3d6df70e3.png",
@@ -62,14 +62,15 @@
     "static/media/logoKirana.png": "/kirana/static/media/logoKirana.c5154ccb87e0e039ab64.png",
     "static/media/parle.png": "/kirana/static/media/parle.fc8a8915c485c36c76e4.png",
     "static/media/pens.avif": "/kirana/static/media/pens.74f4ba7183da82ffce5b.avif",
+    "static/media/shampoo.avif": "/kirana/static/media/shampoo.8a606258de3fc8958c42.avif",
     "static/media/clinic.avif": "/kirana/static/media/clinic.c38941ea8f7f85d36c4a.avif",
     "index.html": "/kirana/index.html",
-    "main.70960631.css.map": "/kirana/static/css/main.70960631.css.map",
-    "main.5c2a04b3.js.map": "/kirana/static/js/main.5c2a04b3.js.map",
+    "main.91224491.css.map": "/kirana/static/css/main.91224491.css.map",
+    "main.2a9d83b5.js.map": "/kirana/static/js/main.2a9d83b5.js.map",
     "453.72e47097.chunk.js.map": "/kirana/static/js/453.72e47097.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70960631.css",
-    "static/js/main.5c2a04b3.js"
+    "static/css/main.91224491.css",
+    "static/js/main.2a9d83b5.js"
   ]
 }
