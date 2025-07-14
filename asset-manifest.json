@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/kirana/static/css/main.1b189b89.css",
-    "main.js": "/kirana/static/js/main.261f08b4.js",
+    "main.css": "/kirana/static/css/main.3195bab3.css",
+    "main.js": "/kirana/static/js/main.250da31b.js",
     "static/js/453.72e47097.chunk.js": "/kirana/static/js/453.72e47097.chunk.js",
+    "static/media/logoKirana.png": "/kirana/static/media/logoKirana.c7fd2b93433a6f9d22a7.png",
     "static/media/marie gold.webp": "/kirana/static/media/marie gold.073bae79a3d7c824bc7e.webp",
     "static/media/dabure.png": "/kirana/static/media/dabure.ec0e9b3ac6b3d6df70e3.png",
     "static/media/chaipatti.jpg": "/kirana/static/media/chaipatti.0fa4a5375381a5f81fff.jpg",
@@ -11,9 +12,7 @@
     "static/media/pensilcolor.avif": "/kirana/static/media/pensilcolor.85826be755df02e647ee.avif",
     "static/media/compose4.jpg": "/kirana/static/media/compose4.bda2f2190d6791b31fc1.jpg",
     "static/media/cons.avif": "/kirana/static/media/cons.26654b342f61b555203a.avif",
-    "static/media/Hero-Section-Mockup.webp": "/kirana/static/media/Hero-Section-Mockup.7fefb996b81e32618609.webp",
     "static/media/cricket.avif": "/kirana/static/media/cricket.84239e036ec590fd3205.avif",
-    "static/media/heroimg1.webp": "/kirana/static/media/heroimg1.1122f8cdaa25758e8f3a.webp",
     "static/media/daal.avif": "/kirana/static/media/daal.49fb517d54a777a8423c.avif",
     "static/media/compose 3.webp": "/kirana/static/media/compose 3.c6f7e6b50dd875082333.webp",
     "static/media/dryfriut.avif": "/kirana/static/media/dryfriut.74fc891d9de547945474.avif",
@@ -59,18 +58,17 @@
     "static/media/dinshaws.png": "/kirana/static/media/dinshaws.377a0400f59482433d07.png",
     "static/media/soap.avif": "/kirana/static/media/soap.4b368c86a2b8a4855ce0.avif",
     "static/media/toys.avif": "/kirana/static/media/toys.a19767041cefb36d2c01.avif",
-    "static/media/logoKirana.png": "/kirana/static/media/logoKirana.c5154ccb87e0e039ab64.png",
     "static/media/parle.png": "/kirana/static/media/parle.fc8a8915c485c36c76e4.png",
     "static/media/pens.avif": "/kirana/static/media/pens.74f4ba7183da82ffce5b.avif",
     "static/media/shampoo.avif": "/kirana/static/media/shampoo.8a606258de3fc8958c42.avif",
     "static/media/clinic.avif": "/kirana/static/media/clinic.c38941ea8f7f85d36c4a.avif",
     "index.html": "/kirana/index.html",
-    "main.1b189b89.css.map": "/kirana/static/css/main.1b189b89.css.map",
-    "main.261f08b4.js.map": "/kirana/static/js/main.261f08b4.js.map",
+    "main.3195bab3.css.map": "/kirana/static/css/main.3195bab3.css.map",
+    "main.250da31b.js.map": "/kirana/static/js/main.250da31b.js.map",
     "453.72e47097.chunk.js.map": "/kirana/static/js/453.72e47097.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b189b89.css",
-    "static/js/main.261f08b4.js"
+    "static/css/main.3195bab3.css",
+    "static/js/main.250da31b.js"
   ]
 }
